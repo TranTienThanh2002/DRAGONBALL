@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project yourself</title>
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+	<!-- Liên kết bootstrap -->
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="shortcut icon" href="image/loading1.gif" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader">
+        <img src="image/loading1.gif" alt="">
+    </div>
+    <header>
+        <nav class=" navbar navbar-expand-sm navbar-light ">
+            <a class="navbar-brand fire" href="#">
+                <h1 class="Blazing" contenteditable="true">DRAGON BALL</h1>
+                <h2 class="Blazing" contenteditable="true">SUPER</h2>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class=" navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CHARACTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRAILERS AND CLIPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACTOR</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="background">
+                <div class="main-banner">
+                    <div class="img-banner active" id="banner1">
+                        <!-- <img src="image/banner1.jpg" alt=""> -->
+                    </div>
+                    
+                    <div class="img-banner" id="banner2">
+                        <!-- <img src="image/banner.jpg" alt=""> -->
+                    </div>
+                    <div class="img-banner" id="banner3">
+                        <!-- <img  src="image/banner1.jpg" alt=""> -->
+                    </div>
+                </div>
+                
+                <div class="des ">
+                    <h1 class ="shadows">Welcome to DragonBall!</h1>
+                    <p>Potenti a quod adipisci possimus modi. Pellentesque condimentum illo! Faucibus. Dolores nesciunt nibh pretium per integer dictumst. Beatae, esse? Iusto.</p>
+                </div>
+                <div class="buttonMove">
+                    <i class="btn-icon fa fa-arrow-right" aria-hidden="true" id="btn-next"></i>
+                    <i class="btn-icon fa fa-arrow-left" aria-hidden="true" id="btn-prev"></i>
+                </div>
+                <div class="bulles">
+                    <div id="tp-bullet" class="active"></div>
+                    <div id="tp-bullet"></div>
+                    <div id="tp-bullet"></div>
+                </div>
+            </div>
+           
+        </div>
+        
+    </header>
+    <section>
+        <div class="introduce container-fluid">
+            <div class="row">
+                <div class="img col-6">
+                    <img src="image/goku.png" alt="">
+                </div>
+                <div class="description col-6">
+                    <h2>INTRODUCE</h2>
+                    <p>
+                        Dragon Ball Super is a Japanese manga and anime television series that is a sequel to the original Dragon Ball manga series and the animated series Dragon Ball Z. Outline of the overall plot penned by Dragon Ball franchise founder Akira Toriyama
+                    </p>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        <div class="character">
+            <h1>CHARACTER</h1>
+            <div class="img-main cards__wrapper">
+                <div class="left card previous--card">
+                    <!-- <img src="image/SonGoku/main.png" alt=""> -->
+                    <div class="card__image">
+                        <img src="image/SonGoku/main.png" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <p>SONGOKU</p>
+                        <button>Details</button>
+                    </div>
+                </div>
+                <div class="vegeta active card current--card">
+                    <!-- <img src="image/SonGoku/main.png" alt=""> -->
+                    <div class="card__image">
+                        <img src="image/Vegeta/main.png" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <p>VEGETA</p>
+                        <button>Details</button>
+                    </div>
+                </div>
+                
+                <div class="right card next--card">
+                    <!-- <img src="image/SonGoku/main.png" alt=""> -->
+                    <div class="card__image">
+                        <img src="image/Gohan/main.png" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <p>GOHAN</p>
+                        <button>Details</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="avatar row">
+                <div class="row-avatar">
+                    <div class="sonGoku previous--avatar">
+                        <img src="image/SonGoku/songoku-avatar.jpeg" alt="">
+                    </div>
+                    <div class="veGeta active current--avatar">
+                        <img src="image/Vegeta/avatar-vegeta.png" alt="">
+                    </div>
+                    <div class="sonGohan next--avatar">
+                        <img src="image/Gohan/avatar.jpg" alt="">
+                    </div>
+                </div>
+                <div class="buttonClick">
+                    <i id="right" class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i id="left" class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                
+
+            </div>
+            <div class="buttonPage">
+                <button class="btn btn-prevPage">Previous Page</button>
+                <button class="btn btn-nextPage">Next Page</button>
+                
+            </div>
+        </div>
+        <div class="clips">
+            <h1>TRAILERS AND CLIPS</h1>
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C9KHj81O_L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="description-ytb">
+                        DRAGON BALL SUPER: SUPER HERO | Official Trailer
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C9KHj81O_L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="description-ytb">
+                        DRAGON BALL SUPER: SUPER HERO | Official Trailer
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C9KHj81O_L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="description-ytb">
+                        DRAGON BALL SUPER: SUPER HERO | Official Trailer
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C9KHj81O_L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="description-ytb">
+                        DRAGON BALL SUPER: SUPER HERO | Official Trailer
+                    </div>
+                </div>
+                
+            </div>
+            <div class="button-view">
+                <button class="btn btn-viewAll ">VIEW ALL</button>
+            </div>
+            
+        </div>
+        <div class="actors container-fluid mySwiper">
+            <h1>ACTORS</h1>
+            <div class="actor  swiper-wrapper">
+                <div class="row swiper-slide">
+                    <div class="box">
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/SeanChemmel-songoku.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Sean Chemmel</h1>
+                                    <p>Son Goku</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Christopher Sabat-vegeta.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Christopher Sabat</h1>
+                                    <p>Vegeta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Masako Nozawa-gohan.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Masako Nozawa</h1>
+                                    <p>Son Gohan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Jason Douglas-beerus.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Jason Douglas</h1>
+                                    <p>Beerus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row swiper-slide">
+                    <div class="box">
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/SeanChemmel-songoku.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Sean Chemmel</h1>
+                                    <p>Son Goku</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Christopher Sabat-vegeta.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Christopher Sabat</h1>
+                                    <p>Vegeta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Masako Nozawa-gohan.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Masako Nozawa</h1>
+                                    <p>Son Gohan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Jason Douglas-beerus.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Jason Douglas</h1>
+                                    <p>Beerus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row swiper swiper-slide">
+                    <div class="box">
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/SeanChemmel-songoku.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Sean Chemmel</h1>
+                                    <p>Son Goku</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Christopher Sabat-vegeta.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Christopher Sabat</h1>
+                                    <p>Vegeta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Masako Nozawa-gohan.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Masako Nozawa</h1>
+                                    <p>Son Gohan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="person">
+                                <img src="image/actor/Jason Douglas-beerus.jpg" alt="">
+                            </div>
+                            <div class="characterAct">
+                                <div class="name">
+                                    <h1>Jason Douglas</h1>
+                                    <p>Beerus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="btn-showAll">
+                <button class="fillskewopen">SHOW ALL</button>
+            </div>
+            
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row" id = "contact">
+            <div class="col-6 col-lg-3 col-md-3">
+                <h4>Contact us</h4>
+                <p>
+                    Lorem Ipsum <br>
+                    8000 Aarhus<br>
+                    Denmark<br>
+                    <br>
+                    + 84 - So Call me Maybe
+                    <br>
+                    <br>
+                    Send us an e-mail
+                </p>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3">
+                <h4>Navigation</h4>
+                <p>
+                    - Home<br>
+                    - Characters<br>
+                    - Trailers<br>
+                    - Clips<br>
+                    - Actor
+                    
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4">
+                <h4>Submit to our news letter</h4>
+                <p>Submit and get all the info about our <br>
+                    work, new positions and new blog inputs.</p>
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder = "Your Email">
+                    <button>Submit</button>
+                </form>
+                
+            </div>
+        </div>
+        <p class="copy">© All rights reserved - Freestyle Freebie 1.00 - TIENTHANH</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="vendor/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
